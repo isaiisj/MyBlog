@@ -15,6 +15,14 @@ body {
   font-family: 'poppins', verdana;
   background-color: var(--color-morado);
   padding: 3.5rem 2.2rem 0.9rem 2.2rem;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.7),
+      rgba(136, 136, 206, 0.6)
+    ),url(https://www.nasa.gov/sites/default/files/thumbnails/image/42374725534_a653d1b7cb_k_0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 hr{
@@ -46,24 +54,29 @@ padding:10px;
   display: flex;
   flex-direction: column;
 }
+
 ul.redes{
   display: flex;
   justify-content: center;
   list-style: none;
 }
+
 ul.redes li a{
   text-decoration: none;
 }
 
 footer{
-    text-align:center;
-    background-color:none;
+  text-align:center;
+  background-color:none;
+  color: #fff;
 }
+
+
 section, header{
     background-color:rgb(200,200,200);
     text-align:center;
     border-radius:10px;
-    margin: 1.6rem auto 0.9rem auto;
+    margin: 1.6rem auto 1.6rem auto;
     padding: 0.9rem 1.5rem;
     box-shadow: 0.1rem 0.1rem 0.9rem;
 }
