@@ -36,6 +36,7 @@ header{
 
 iframe{
     width:100%;
+  border-radius: 6px;
 }
 form{
 padding:10px;
