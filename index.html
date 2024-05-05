@@ -9,34 +9,41 @@
 <body>
     <!--Inicio de encabezado-->
     <header class="header">
-      <img src="nova.jpg" id="nova">
-        <img src="me.jpeg" id="profile-photo">
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#mySkills">My skills</a></li>
+                <li><a href="#">Things you'll like</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="nova.jpg" id="nova">
+            <img src="me.jpeg" id="profile-photo">
+        </figure>
         <h1>Isai's Blog</h1>
         <p>"Declare variables, not war"</p>
     </header>
     <hr width="50%"/>
         <!--Fin de encanezado-->
         <!--Inicio de seccion Acerca de mi-->
-        <section>
-        <h1>About me</h1>
-        <p class="about">Hi there, I'm <strong>Isai </strong> and I'm a software developer engineer ang  <i>electrical - electronics engr. by National Autonomus University of Mexico (UNAM) </i> I'm so passionate for learning about almost everything, reading and develop new skills.</p>
+        <section class="aboutMe" id="aboutMe">
+        <h1 class="aboutMe__title">About me</h1>
+        <p class="aboutMe__text">Hi there, I'm <strong>Isai </strong> and I'm a software developer engineer ang  <i>electrical - electronics engr. by National Autonomus University of Mexico (UNAM) </i> I'm so passionate for learning about almost everything, reading and develop new skills.</p>
           <br>
-        <p class="about">Currently I've been working in fullstack development</p>
+        <p class="aboutMe__text">Currently I've been working in fullstack development and blockchain technology."</p>
           <br>
-          <p class="about">I love music so much, and I play the guitar and piano, Recently I started a Rock Band Called <strong>Rocket to Mars</strong> and making new songs in my free time.</p>
+          <p class="aboutMe__text">I love music so much, and I play the guitar and piano, Recently I started a Rock Band Called <strong>Rocket to Mars</strong> and making new songs in my free time.</p>
           <br>
-           <p class="about">I´m always looking for things to build that help people and to make the world a better place and I love to travel from time to time.</p>
+           <p class="aboutMe__text">At the moment I'm starting up a company called Beeup, an ecommerce platfform that allows people to sell or buy a used car in LatinAmerica usign blockchain technology and making the way people do this kind of transactions much more safe.</p>
         </section>
         <!--Fin seccion Acerca de mi-->
         <!--Inicio seccion Habilidades e idiomas-->
-        <section>
+        <section class="mySkills" id="mySkills">
         <h1>My skills</h1>
             <p>HTML<br/><progress min="0" max="100" value="90">/progress></p>
             <p>CSS<br/><progress min="0" max="100" value="80"></progress></p>
-            <p>Python<br/><progress min="0" max="100" value="90"></p>
-            <p>JavaScript<br/><progress min="0" max="100" value="80">/progress></p>
-            <p>Angular<br/><progress min="0" max="100" value="60"></progress></p>
-            <p>SQL<br/><progress min="0" max="100" value="70"></p>
+            <p>Python<br/><progress min="0" max="100" value="60"></p>
           <br>
         <h1>Languages</h1>
             <p>Spanish</p>
@@ -117,7 +124,7 @@
         <section>
             <h2>Follow me</h2>
             <ul class="redes">
-             <li><a href="https://www.instagram.com/isaiisj/"><img src="instagram.png" class="social"></a></li>
+              <li><a href="https://www.instagram.com/isaiisj/"><img src="instagram.png" class="social"></a></li>
               <li><a href="https://twitter.com/isaiiSJ"><img src="gorjeo.png" class="social"></a></li>
               <li><a href="https://github.com/isaiisj"><img src="github.png" class="social"></a></li>
               <li><a href="#"><img src="spotify.png" class="social"></a></li>
